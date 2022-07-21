@@ -1,0 +1,155 @@
+.skSearchItem {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  animation: skeleton 1s ease infinite alternate;
+}
+
+.skImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #4d4d4d;
+  margin: 10px 0 10px 0;
+}
+
+.skDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.skTitle {
+  background-color: #4d4d4d;
+  width: 90%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.skDistance {
+  background-color: #4d4d4d;
+  width: 40%;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.skTaxiOp {
+  background-color: #4d4d4d;
+  width: 30%;
+  height: 25px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.skSubtitle {
+  background-color: #4d4d4d;
+  width: 75%;
+  height: 15px;
+
+  border-radius: 5px;
+}
+
+.skFeatures {
+  background-color: #4d4d4d;
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.skCancelOp {
+  background-color: #4d4d4d;
+  width: 30%;
+  height: 12px;
+  border-radius: 5px;
+}
+
+.skCancelOpSubtitle {
+  background-color: #4d4d4d;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.skDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skRating > div {
+  background-color: #4d4d4d;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+}
+.skRating > button {
+  background-color: #4d4d4d;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.skDetailTexts {
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skPrice {
+  background-color: #4d4d4d;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.skTaxOp {
+  background-color: #4d4d4d;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.skCheckButton {
+  background-color: #4d4d4d;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+@keyframes skeleton {
+  to {
+    opacity: 0.5;
+  }
+}
+
+.circle {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skfeaturedItem {
+  width: 100%;
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #4d4d4d;
+  height: 250px;
+  animation: skeleton 1s ease infinite alternate;
+}
